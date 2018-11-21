@@ -1,4 +1,4 @@
-onst Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("Scrpit By Dream");
 
@@ -18,4 +18,4 @@ channel.send(`spam spam spam spam spam spam spam spam spam spam spam spam spam s
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 }); 
-client.login('NTE0ODI2MTQzMjI0OTU0ODg0.DtcOAQ.YYlncen_Jta7Qd1edHyc79Nc-68');
+client.login('"NTE0ODI2MTQzMjI0OTU0ODg0.DtcOAQ.YYlncen_Jta7Qd1edHyc79Nc-68"');
